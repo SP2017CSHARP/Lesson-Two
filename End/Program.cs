@@ -50,7 +50,21 @@ namespace End
             //    Console.WriteLine("Hello there fellow american");
             //}
 
+            int[] anArray = new int[5]; //an array with five slots 
 
+            string[] stringArray = new[] { "This will hold 2 strings", "Second String" };
+
+            string input = "yellow,red,blue,green";
+            string[] colors = input.Split(','); //single quote for string literals
+
+            
+            List<string> myStringList = new List<string>();
+
+            string stringToAdd = "This is going into my list";
+            myStringList.Add(stringToAdd); //add the string 
+
+            myStringList.Remove(stringToAdd); //remove it 
+            
 
             #endregion
 
@@ -261,7 +275,7 @@ namespace End
 
             //log all odd numbers from one - twenty to the console
 
-            //for (int i = 0; i <= 20; i++)
+            //for (int i = 1; i <= 20; i++)
             //{
             //    if (i % 2 != 0)
             //    {
@@ -325,10 +339,6 @@ namespace End
             //}
             //Console.ForegroundColor = ConsoleColor.Green;
             //Console.WriteLine("Finally! You did it!");
-
-
-
-
 
             #endregion
 
@@ -513,8 +523,6 @@ namespace End
             //int i;
             //int numberOfElementsInArray;
             //int sum = 0;
-
-
 
 
             //Console.WriteLine("Input the number of elements to be stored in the array (1-25) :");
